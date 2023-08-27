@@ -24,7 +24,7 @@ from apyori import apriori
 st.set_page_config(page_title="Customer Segmentation by Demographics", layout="wide")
 
 # Load the dataset
-data = pd.read_csv(r'C:\Users\Haidar\Desktop\AUB\MSBA\Summer\Capstone\Data\Data_full_with_Gender.csv')
+data = pd.read_csv('Data_full_with_Gender.csv')
 
 # Clean and preprocess data
 # Create a dictionary to hold the most frequent locations for each category
